@@ -20,6 +20,14 @@ text-align: center;
 
     font-size: 30px;
     color: #20303c;
+    transform: translate(0px , -10px);
+}
+
+
+.qu {
+
+    transform: translate(-450px , -15px);
+
 }
 
 .div-one {
@@ -39,10 +47,85 @@ width: 200px;
 .inside {
     font-size: 30px;
     color: #20303c;
+    transform: translate(15px , 10px);
 }
 
 iframe {
 justify-content: center;
 align-items: center;
+
+}
+
+.div-three {
+
+    width: 200px;
+    transform: translate(600px , -100px);
+
+}
+
+.interior {
+
+    font-size: 30px;
+    color: #20303c;
+}
+
+.wrapper{
+    width: 300px;
+    background: #fff;
+    color: black;
+    margin: 40px auto;
+    border-radius: 6px;
+    padding: 10px 30px;
+    transform: translate(-500px , -400px);
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #20303c;
+}
+
+input{
+    display: block;
+    width: 90%;
+    padding: 10px;
+    font-size: 14px;
+    outline: none;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+button{
+    width: 98%;
+    border: none;
+    outline: none;
+    height: 40px;
+    border-radius: 5px;
+    background: olive;
+    cursor: pointer;
+    color: yellow;
+    font-size: 17px;
+}
+p{
+    text-align: center;
+}
+p a{
+    color: #4aaaa5;
+    text-decoration: none;
+}
+
+.bold {
+    width: 100px;
+    height: 10px;
+    background-color: yellow;
+    justify-content: center;
+    display: flex;
+    transform: translate(600px,-100px);
+
+}
+
+.last {
+
+    color: #20303c;
+    font-size: 50px;
+    transform: translate(500px , -100px );
 
 }
